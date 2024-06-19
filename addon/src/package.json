@@ -1,0 +1,13 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "description": "A Node.js addon for checking user privileges",
+  "main": "addon.node",
+  "scripts": {
+    "build": "node-gyp configure build"
+  },
+  "dependencies": {
+    "node-addon-api": "^2.0.1",
+    "open": "^10.1.0"
+  }
+}
