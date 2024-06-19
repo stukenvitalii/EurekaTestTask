@@ -1,0 +1,15 @@
+{
+  "name": "eurekatesttask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "node-addon-api": "^2.0.1",
+    "open": "^10.1.0"
+  }
+}
+
