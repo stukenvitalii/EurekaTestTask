@@ -68,9 +68,9 @@ npm install node-addon-api open
 node-gyp configure build
 ```
 
-### 9. Запустите файл server.bat
+### 9. Перейдите в корень проекта и запустите файл server bat
 
 ```bash
 cd ../..
-server.bat
 ```
+Запустите server.bat

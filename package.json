@@ -1,15 +1,19 @@
 {
   "name": "eurekatesttask",
   "version": "1.0.0",
-  "description": "",
+  "description": "Необходимо написать простое web-приложение с использованием node.js+node-addon-api (C++)+WinAPI для проверки привилегии пользователя (например, Администратор/Пользователь/Гость) в списке пользователей операционной системы Windows.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
+    "express": "^4.19.2",
     "node-addon-api": "^2.0.1",
     "open": "^10.1.0"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
-
